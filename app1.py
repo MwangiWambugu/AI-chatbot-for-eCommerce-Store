@@ -39,7 +39,7 @@ def get_response(predicted_intent):
 
 # Streamlit app
 def main():
-    st.title("Chatbot Naive Bayes")
+    st.title("Chatbot with Streamlit and Naive Bayes")
 
     user_input = st.text_area("Ask me a question", "")
 
