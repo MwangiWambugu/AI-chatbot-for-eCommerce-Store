@@ -5,7 +5,9 @@ import re
 from nltk.tokenize import word_tokenize
 from nltk.corpus import stopwords
 from nltk.stem import WordNetLemmatizer
+import gradio as gr
 
+gr.load("models/gyro5/dialo-bot").launch()
 # Load the model and vectorizer
 nb_model = load('nb_model.joblib')
 tfidf_vectorizer = load('tfidf_vectorizer.joblib')
@@ -39,11 +41,11 @@ def get_response(predicted_intent):
 
 # Streamlit app
 def main():
-    st.title("Chatbot with Streamlit and Naive Bayes")
+    st.title("Chatbot Naive Bayes")
 
-    user_input = st.text_area("Ask me a question", "")
+    user_input = st.text_area("Hi, how may I help you? :)", "")
 
-    if st.button("Ask"):
+    if st.button("Send"):
         preprocessed_input = preprocess_text(user_input)
         transformed_input = tfidf_vectorizer.transform([preprocessed_input])
         prediction = nb_model.predict(transformed_input)
