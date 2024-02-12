@@ -42,53 +42,47 @@ The dataset can be found in the file *"QA_Beauty.json.gz"* in this repository. I
 ## To get started
 
 1. Clone this repository - [guidance](https://help.github.com/articles/cloning-a-repository/).
-2. Dataset can be found in the file "zillow_data.csv".
+2. Dataset can be found in the file "QA_Beauty.json.gz".
 3. Check the requirements in the Technologies section above and download libraries if necessary.
 
 ## 1. Data Wrangling
 Here we will work on data cleaning, handling missing values, data transformation, handling duplicates, data reshaping, and other processes to ensure that we have a clean, structured, and suitable format for analysis and modeling
 
 ## 2. Exploratory Data Analysis (EDA)
+The graph presented is a univariate bar plot that displays the distribution of question types within a dataset. This dataset appears to be related to an e-commerce setting question/answer data.
+Open-ended: This category has the largest number of occurrences, indicating that it is the most common type of question in the dataset.
+Yes/no: This category has a much lower count in comparison to open-ended questions, indicating that such questions are less frequent in the dataset.
 ![image](https://github.com/MwangiWambugu/AI-chatbot-for-eCommerce-Store/blob/main/images/univariate%20analysis.png)
- 
+
+The histogram shows that the majority of questions receive a specific number of answers, with the number two being the most common, as indicated by the highest bar on the graph.
+![image]()
+
+The visualization displays the top 20 most frequently occurring words found in questions from the dataset. These types of words are typically used in text analysis to understand the common language or topics that are being discussed.
+![image](https://github.com/MwangiWambugu/AI-chatbot-for-eCommerce-Store/blob/main/images/most_common_words_bar_chart.png)
+
+In this word cloud, we can identify several prominent words: "product", "use", "work", "will", "thanks" and "one"
+![image](https://github.com/MwangiWambugu/AI-chatbot-for-eCommerce-Store/blob/main/images/wordcloud.png)
+
+"is this" is the most frequent bi-gram, suggesting that many questions start with an inquiry directly about a product or feature.
+"what is the" is the most frequent tri-gram, which is often a lead into a detailed question about a product or service.
+![image](https://github.com/MwangiWambugu/AI-chatbot-for-eCommerce-Store/blob/main/images/most_common_ngrams_subplot.png) 
 
 ## 3. Data Preprocessing
 Parsing and analyzing data from  the compressed JSON file containing beauty-related questions and answers, extracting relevant columns such as question type, question text, and top answers, and then displaying them.
 Aggregating questions and answers into a structured format and writes them to a JSON file for further processing.
 
-# 3.1 Tokenizing
+#### 3.1 Tokenizing
 A function that pairs questions with their corresponding responses from a list of dictionaries, assuming each sublist contains dictionaries with `'tag'`, `'questions'`, and `'responses'` keys, and returns a list of dictionaries with `'tag'`, `'question'`, and `'response'` keys.
 
-# 3.2 Lemmatizing Words using NLTK
+#### 3.2 Lemmatizing Words using NLTK
 Lemmatize words in a list of filtered words, and then prints a sample of the lemmatized words.
 
 
 ## 4. Modelling
-# Multinomial Naive Bayes Model
-Accuracy: 0.06140983486328244
-Classification Report:
-                                precision    recall  f1-score   support
+#### Multinomial Naive Bayes Model
 
-  Accessories and Attachments       0.05      0.05      0.05      6704
-                  Electronics       0.05      0.04      0.04      6723
-                    Fragrance       0.04      0.03      0.04      6485
-            Health and Safety       0.02      0.01      0.02      6603
-Ingredient Specific Questions       0.03      0.02      0.03      6664
-       International Shipping       0.03      0.02      0.03      6671
-                Personal Care       0.12      0.20      0.15      7604
-         Product Authenticity       0.05      0.03      0.04      6778
-           Product Comparison       0.07      0.06      0.06      6735
-       Shipping and Packaging       0.07      0.07      0.07      6804
-           Usage Instructions       0.10      0.10      0.10      7393
-Warranty and Customer Support       0.04      0.06      0.05      6647
 
-                     accuracy                           0.06     81811
-                    macro avg       0.05      0.06      0.06     81811
-                 weighted avg       0.06      0.06      0.06     81811
-
-Accuracy on the test set: 0.06
-Cross-Validation Scores: [0.07182396 0.07228982 0.07205689 0.0704812  0.07178286]
-Mean Accuracy: 0.07168694508385401
+## 5. Conclusion
 
 ## Contributors:
 |Name     |  GitHub   |
