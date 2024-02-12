@@ -55,7 +55,7 @@ Yes/no: This category has a much lower count in comparison to open-ended questio
 ![image](https://github.com/MwangiWambugu/AI-chatbot-for-eCommerce-Store/blob/main/images/univariate%20analysis.png)
 
 The histogram shows that the majority of questions receive a specific number of answers, with the number two being the most common, as indicated by the highest bar on the graph.
-![image]()
+![image](https://github.com/MwangiWambugu/AI-chatbot-for-eCommerce-Store/blob/main/images/distribution.png)
 
 The visualization displays the top 20 most frequently occurring words found in questions from the dataset. These types of words are typically used in text analysis to understand the common language or topics that are being discussed.
 ![image](https://github.com/MwangiWambugu/AI-chatbot-for-eCommerce-Store/blob/main/images/most_common_words_bar_chart.png)
