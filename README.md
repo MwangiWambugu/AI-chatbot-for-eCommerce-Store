@@ -1,4 +1,5 @@
 # AI-chatbot-for-eCommerce-Store
+![Alt text](https://github.com/MwangiWambugu/AI-chatbot-for-eCommerce-Store/blob/main/images/best-ai-chatbot-software.png)
 
 ## Problem Statement
 To develop an AI-powered chatbot designed to provide responsive, context-aware assistance without the limitations of human-operated systems
@@ -48,7 +49,7 @@ The dataset can be found in the file *"QA_Beauty.json.gz"* in this repository. I
 Here we will work on data cleaning, handling missing values, data transformation, handling duplicates, data reshaping, and other processes to ensure that we have a clean, structured, and suitable format for analysis and modeling
 
 ## 2. Exploratory Data Analysis (EDA)
-![image](https://github.com/MwangiWambugu/AI-chatbot-for-eCommerce-Store/tree/stephen)
+![image](https://github.com/MwangiWambugu/AI-chatbot-for-eCommerce-Store/blob/main/images/univariate%20analysis.png)
  
 
 ## 3. Data Preprocessing
