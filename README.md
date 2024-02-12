@@ -49,7 +49,7 @@ Here we will work on data cleaning, handling missing values, data transformation
 
 ## 2. Exploratory Data Analysis (EDA)
 ![image](https://github.com/MwangiWambugu/AI-chatbot-for-eCommerce-Store/tree/stephen)
-
+ 
 
 ## 3. Data Preprocessing
 Parsing and analyzing data from  the compressed JSON file containing beauty-related questions and answers, extracting relevant columns such as question type, question text, and top answers, and then displaying them.
@@ -63,9 +63,7 @@ Lemmatize words in a list of filtered words, and then prints a sample of the lem
 
 
 ## 4. Modelling
-
-
-## Multinomial Naive Bayes Model
+# Multinomial Naive Bayes Model
 Accuracy: 0.06140983486328244
 Classification Report:
                                 precision    recall  f1-score   support
