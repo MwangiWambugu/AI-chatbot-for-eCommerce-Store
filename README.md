@@ -80,7 +80,7 @@ Lemmatize words in a list of filtered words, and then prints a sample of the lem
 
 ## 4. Modelling
 #### Pretrained model
-Pretrained models can be fine-tuned or adapted to specific tasks with smaller datasets. This process, known as transfer learning, involves taking a pretrained model and adjusting its parameters to perform a new task. Transfer learning allows developers to achieve good performance on their tasks with less labeled data.
+Pretrained models can be fine-tuned or adapted to specific tasks with smaller datasets. This process, known as transfer learning, involves taking a pretrained model and adjusting its parameters to perform a new task. Transfer learning allows developers to achieve good performance on their tasks with less labeled data. In our case we used one from hugging face.https://huggingface.co/
 
 #### Rasa model
 Rasa model is a crucial component of conversational AI applications, enabling developers to create intelligent, context-aware chatbots and virtual assistants that deliver engaging and personalized user experiences.
