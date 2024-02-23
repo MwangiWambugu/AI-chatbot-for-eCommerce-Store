@@ -1,1 +1,159 @@
+version: "3.1"
 
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+
+
+- intent: personal_care
+  examples: |
+    - Hi! I'm looking for a [moisturizer](grooming), but I have dry, sensitive skin. What would you recommend?
+    - What are some popular [anti-aging serums](grooming) for mature skin?
+    - I'm avoiding parabens and sulfates. Do you have any recommendations for natural [makeup brands](grooming)?
+    - I just bought a new eyeliner, but I can't seem to get a [winged look](grooming) right. Any tips?
+
+- intent: accessories_and_attachments
+  examples: |
+    - I have a [curling iron](accessories) with a [1-inch barrel](accessories). Do you have any [heat-resistant](accessories) clips that will fit?
+    - What are the benefits of using a [jade roller](accessories) on my face?
+    - I travel frequently. Do you have any recommendations for [makeup brush](accessories) organizers that fit in a [suitcase](accessories)?
+
+- intent: electronics
+  examples: |
+    - What's the difference between a [straightener](device) and a [flat iron](device)?
+    - How long does the battery life last on this [electric toothbrush](device)?
+    - Can I connect this [hair dryer](device) to my smart home system?
+
+- intent: fragrances
+  examples: |
+    - I like fresh, [citrusy scents](fragrance). Do you have any recommendations for [perfumes](fragrance) or [body sprays](fragrance)?
+    - How long does this [cologne](fragrance) typically last on skin?
+    - I'm looking for a birthday gift for someone who loves warm, [vanilla scents](fragrance).
+
+- intent: health_and_safety
+  examples: |
+
+    - I have a [nut allergy](well_being). Are there any products in your store that are [nut-free](well_being)?
+    - What [SPF level](well_being) do you recommend for someone with fair skin?
+    - Can I use this [retinol serum](well_being) with my current [moisturizer](well_being)?
+
+- intent: ingredient_specific_questions
+  examples: |
+    - Do you have any lipsticks that are vegan and [cruelty-free](contents)?
+    - I'm looking for a natural shampoo that doesn't contain [sulfates](contents).
+    - Is there anything [in this product](contents) that might irritate sensitive skin?
+
+- intent: product_authenticity
+  examples: |
+    - How can I be sure this product is [genuine](legitimacy) and not a [counterfeit](legitimacy)?
+    - Where are your [authorized](legitimacy) retailers located?
+    - How can I check the [batch code](legitimacy) on this product?
+
+- intent: product_comparison
+  examples: |
+    - How does this facial cleanser [compare](contrast) to the one I'm currently using?
+    - I found a [similar](contrast) product at [another store](contrast) for a [lower price](contrast). Can you match it?
+    - What are the [pros and cons](contrast) of [different](contrast) electric toothbrush brands?
+
+- intent: shipping_and_packaging
+  examples: |
+    - How long will it take for my order to [arrive](logistics)?
+    - Do you [ship internationally](logistics)?
+    - Do you offer [eco-friendly packaging](logistics) options?
+
+- intent: usage_instructions
+  examples: |
+    - [How do I](guidance) apply this hair mask [correctly](guidance)?
+    - My curling iron isn't heating up. [What should I do](guidance)?
+    - Are there any [safety warnings](guidance) I should be aware of when using this product?
+- intent: warranty_and_customer_support
+  examples: |
+    - What is your [return policy](client_assistance) if I'm not satisfied with my purchase?
+    - How long is the [warranty](client_assistance) on this product?
+    - How can I get in touch with [customer support](client_assistance)?

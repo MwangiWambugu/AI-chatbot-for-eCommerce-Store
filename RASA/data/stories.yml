@@ -1,0 +1,170 @@
+# version: "3.1"
+
+# stories:
+
+# - story: happy path
+#   steps:
+#   - intent: greet
+#   - action: utter_greet
+#   - intent: mood_great
+#   - action: utter_happy
+
+# - story: sad path 1
+#   steps:
+#   - intent: greet
+#   - action: utter_greet
+#   - intent: mood_unhappy
+#   - action: utter_cheer_up
+#   - action: utter_did_that_help
+#   - intent: affirm
+#   - action: utter_happy
+
+# - story: sad path 2
+#   steps:
+#   - intent: greet
+#   - action: utter_greet
+#   - intent: mood_unhappy
+#   - action: utter_cheer_up
+#   - action: utter_did_that_help
+#   - intent: deny
+#   - action: utter_goodbye
+
+# - story: personal care inquiry
+#   steps:
+#   - intent: personal_care
+#   - action: utter_personal_care_response
+
+# - story: accessories and attachments inquiry
+#   steps:
+#   - intent: accessories_and_attachments
+#   - action: utter_accessories_and_attachments_response
+
+# - story: electronics inquiry
+#   steps:
+#   - intent: electronics
+#   - action: utter_electronics_response
+
+# - story: fragrances inquiry
+#   steps:
+#   - intent: fragrances
+#   - action: utter_fragrances_response
+
+# - story: health and safety inquiry
+#   steps:
+#   - intent: health_and_safety
+#   - action: utter_health_and_safety_response
+
+# - story: ingredient specific questions inquiry
+#   steps:
+#   - intent: ingridient_specific_questions
+#   - action: utter_ingridient_specific_questions_response
+
+# - story: product authenticity inquiry
+#   steps:
+#   - intent: product_aunthenticity
+#   - action: utter_product_aunthenticity_response
+
+# - story: product comparison inquiry
+#   steps:
+#   - intent: product_comparison
+#   - action: utter_product_comparison_response
+
+# - story: shipping and packaging inquiry
+#   steps:
+#   - intent: shipping_and_packaging
+#   - action: utter_shipping_and_packaging_response
+
+# - story: usage instructions inquiry
+#   steps:
+#   - intent: usage_instructions
+#   - action: utter_usage_instructions_response
+
+# - story: warranty and customer support inquiry
+#   steps:
+#   - intent: warranty_and_customer_support
+#   - action: utter_warranty_and_customer_support_response
+
+
+version: "3.1"
+stories:
+- story: happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_great
+  - action: utter_happy
+
+- story: sad path 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_happy
+
+- story: sad path 2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+
+- story: personal care inquiry
+  steps:
+  - intent: personal_care
+  - action: utter_ask_personal_care
+
+- story: accessories and attachments inquiry
+  steps:
+  - intent: accessories_and_attachments
+  - action: utter_ask_accessories_and_attachments
+
+- story: electronics inquiry
+  steps:
+  - intent: electronics
+  - action: utter_ask_electronics
+
+- story: fragrances inquiry
+  steps:
+  - intent: fragrances
+  - action: utter_ask_fragrances
+
+- story: health and safety inquiry
+  steps:
+  - intent: health_and_safety
+  - action: utter_ask_health_and_safety
+
+- story: ingredient specific questions inquiry
+  steps:
+  - intent: ingredient_specific_questions
+  - action: utter_ask_ingredient_specific_questions
+
+- story: product authenticity inquiry
+  steps:
+  - intent: product_authenticity
+  - action: utter_ask_product_authenticity
+
+- story: product comparison inquiry
+  steps:
+  - intent: product_comparison
+  - action: utter_ask_product_comparison
+
+- story: shipping and packaging inquiry
+  steps:
+  - intent: shipping_and_packaging
+  - action: utter_ask_shipping_and_packaging
+
+- story: usage instructions inquiry
+  steps:
+  - intent: usage_instructions
+  - action: utter_ask_usage_instructions
+
+- story: warranty and customer support inquiry
+  steps:
+  - intent: warranty_and_customer_support
+  - action: utter_warranty_and_customer_support_response
