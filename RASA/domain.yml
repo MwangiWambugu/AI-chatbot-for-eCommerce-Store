@@ -1,0 +1,180 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - personal_care
+  - accessories_and_attachments
+  - electronics
+  - fragrances
+  - health_and_safety
+  - ingredient_specific_questions
+  - product_authenticity
+  - product_comparison
+  - shipping_and_packaging
+  - usage_instructions
+  - warranty_and_customer_support
+responses:
+  utter_greet:
+  - text: "Hey! How are you?"
+
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_happy:
+  - text: "Great, carry on!"
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_iamabot:
+  - text: "I am a bot, powered by Rasa."
+  utter_ask_personal_care:
+  - text: "Sure! What specific type of skincare or makeup product are you looking for?"
+  - text: "I would recommend trying the 'HydraZen Gel Cream' by Lancôme. It's gentle and hydrating, perfect for sensitive skin."
+  - text: "You might like the 'Ultra Repair Cream' by First Aid Beauty. It's super moisturizing and great for calming sensitive skin."
+  - text: "Have you considered the 'Cetaphil Daily Hydrating Lotion'? It's fragrance-free and designed specifically for dry, sensitive skin."
+  - text: "I've heard good things about the 'La Roche-Posay Toleriane Double Repair Face Moisturizer'. It's non-comedogenic and suitable for sensitive skin."
+  - text: "The 'Advanced Night Repair' serum by Estée Lauder is highly recommended for mature skin. It helps with firmness and reduces the appearance of fine lines."
+  - text: "You might want to try the 'Retinol Serum' by RoC. It's known for its anti-aging properties and can help with collagen production."
+  - text: "Consider the 'C E Ferulic' serum by SkinCeuticals. It's packed with antioxidants and helps to brighten and firm mature skin."
+  - text: "The 'Genius Liquid Collagen' by Algenist is popular for mature skin. It's formulated with plant collagen and helps improve elasticity."
+  - text: "Check out 'Ilia Beauty'. They offer a wide range of natural makeup products with clean ingredients."
+  - text: "You might like 'RMS Beauty'. They're known for their organic, non-toxic makeup products."
+  - text: "Consider trying 'Beautycounter'. They prioritize safety and transparency in their natural makeup formulations."
+  - text: "Have you looked into 'Juice Beauty'? They use organic ingredients and have a variety of makeup options."
+  - text: "Try using a piece of tape as a guide for creating a sharp wing."
+  - text: "Start by drawing a thin line along your lash line, then gradually build up the wing by extending it outwards."
+  - text: "Experiment with different types of eyeliners - gel, liquid, or pencil - to find which one gives you the best control."
+  - text: "Don't worry if it's not perfect on the first try! Practice makes perfect, so keep experimenting until you find a technique that works for you."
+  utter_ask_accessories_and_attachments:
+  - text: "Are you searching for any particular accessory or attachment?"
+  - text: "Yes, we have the 'Professional Salon Hair Clips' designed specifically for use with curling irons. They're heat-resistant and provide a secure hold."
+  - text: "Consider trying the 'Silicone Grip Hair Clips'. They're perfect for securing hair while styling with hot tools like curling irons."
+  - text: "We recommend the 'Metal Alligator Hair Clips'. They're durable, heat-resistant, and ideal for holding sections of hair in place."
+  - text: "Using a jade roller can help reduce puffiness and inflammation, giving your skin a more sculpted appearance."
+  - text: "Jade rolling promotes lymphatic drainage, which helps to detoxify the skin and reduce the appearance of dark circles and under-eye bags."
+  - text: "Jade rolling can also enhance the absorption of skincare products, allowing them to penetrate deeper into the skin for better results."
+  - text: "Check out the 'Portable Makeup Brush Holder'. It's compact and designed to fit perfectly in your suitcase, keeping your brushes organized and protected."
+  - text: "Consider the 'Travel Makeup Brush Case'. It's lightweight and features multiple compartments to store brushes of various sizes."
+  - text: "We recommend the 'Roll-Up Makeup Brush Organizer'. It's convenient for travel and can be easily packed in your suitcase without taking up too much space."
+
+  utter_ask_electronics:
+  - text: "What type of electronic product do you need information about?"
+  - text: "The main difference lies in the shape of the plates. Straighteners typically have wider plates, making them suitable for straightening larger sections of hair at once, while flat irons have narrower plates, allowing for more precision when styling or creating curls."
+  - text: "Straighteners are designed primarily for smoothing and straightening hair, whereas flat irons are versatile tools that can be used for straightening, curling, or adding waves to hair."
+  - text: "While both tools serve similar purposes, straighteners are often preferred for achieving sleek, smooth styles, while flat irons offer more versatility in terms of styling options."
+  - text: "On average, the battery life of this electric toothbrush lasts for approximately two weeks with regular use. However, actual battery life may vary depending on usage patterns and settings."
+  - text: "This electric toothbrush is equipped with a long-lasting battery that can provide up to 30 days of continuous use on a single charge, making it ideal for travel or everyday use."
+  - text: "The battery life of this electric toothbrush is impressive, lasting for up to three months before needing to be recharged. It also features a convenient indicator light to alert you when the battery is running low."
+  - text: "Yes, this hair dryer is compatible with most smart home systems and can be connected via Bluetooth or Wi-Fi for added convenience. You can control it remotely using your smartphone or voice commands."
+  - text: "Unfortunately, this particular hair dryer does not have smart home integration capabilities. However, it still offers powerful performance and advanced features to meet your styling needs."
+  - text: "While you can't connect this hair dryer directly to your smart home system, it's designed with innovative technology to deliver fast drying and salon-quality results every time."
+
+  utter_ask_fragrances:
+  - text: "Would you like recommendations for a particular fragrance?"
+  - text: "The main difference lies in the shape of the plates. Straighteners typically have wider plates, making them suitable for straightening larger sections of hair at once, while flat irons have narrower plates, allowing for more precision when styling or creating curls."
+  - text: "Straighteners are designed primarily for smoothing and straightening hair, whereas flat irons are versatile tools that can be used for straightening, curling, or adding waves to hair."
+  - text: "While both tools serve similar purposes, straighteners are often preferred for achieving sleek, smooth styles, while flat irons offer more versatility in terms of styling options."
+  - text: "Our cologne is designed to last throughout the day, providing long-lasting fragrance that lingers on the skin. On average, you can expect it to last for 6-8 hours before needing to reapply."
+  - text: "The longevity of our cologne depends on factors such as skin type, application method, and environmental conditions. However, it typically lasts for 4-6 hours, ensuring you smell great all day long."
+  - text: "Our cologne is formulated with high-quality ingredients to ensure lasting fragrance. With proper application, you can enjoy its delightful scent on your skin for up to 12 hours."
+  - text: "For someone who loves warm vanilla scents, consider gifting our 'Cozy Vanilla' perfume. Its rich and comforting fragrance is perfect for creating a sense of warmth and relaxation."
+  - text: "Look no further! Our 'Vanilla Dreams' perfume is the ideal birthday gift for vanilla scent enthusiasts. Its sweet and inviting aroma is sure to delight and pamper the senses."
+  - text: "Surprise your loved one with our luxurious 'Warm Vanilla' body spray. Its irresistible scent is reminiscent of freshly baked cookies and cozy evenings by the fireplace, making it the perfect birthday treat."
+
+  utter_ask_health_and_safety:
+  - text: "Do you have any health or safety concerns regarding products?"
+  - text: "Absolutely! We take allergies seriously, and we have a range of nut-free products available in our store. From skincare to cosmetics, you can shop with confidence knowing that our products are safe for you."
+  - text: "Yes, indeed! We understand the importance of catering to different dietary needs and allergies. You'll be pleased to know that we offer a variety of nut-free options across our product lines."
+  - text: "Certainly! Our store is committed to providing options for customers with various allergies, including nut allergies. Feel free to browse our selection of nut-free products and find the perfect fit for your needs."
+  - text: "For fair skin, we recommend using a sunscreen with a high SPF level, ideally SPF 50 or higher. This offers maximum protection against harmful UV rays and helps prevent sunburn and skin damage."
+  - text: "We understand the sensitivity of fair skin to sunlight, so we suggest using a sunscreen with SPF 30 or higher. This provides adequate protection while ensuring your skin stays healthy and protected."
+  - text: "Given the vulnerability of fair skin to sun damage, we advise using a broad-spectrum sunscreen with an SPF of at least 50. This will provide optimal protection against both UVA and UVB rays."
+  - text: "Yes, you can definitely use our retinol serum with your current moisturizer. In fact, they complement each other well, as the moisturizer helps hydrate and soothe the skin, while the retinol serum targets signs of aging and promotes collagen production."
+  - text: "Absolutely! Our retinol serum is designed to work effectively with a variety of skincare products, including moisturizers. Combining them can enhance the benefits of both products and give you radiant, youthful-looking skin."
+  - text: "Certainly! Our retinol serum is formulated to be compatible with most moisturizers. By incorporating it into your skincare routine alongside your favorite moisturizer, you can enjoy the combined benefits of hydration and anti-aging properties."
+
+  utter_ask_ingredient_specific_questions:
+  - text: "Are you curious about specific ingredients in a product?"
+  - text: "Yes, absolutely! We pride ourselves on offering a wide range of lipsticks that are not only vegan but also cruelty-free. You can shop with confidence knowing that our products align with your ethical values."
+  - text: "Indeed, we do! Our collection includes a variety of lipsticks that are both vegan and cruelty-free. You'll love our vibrant shades and creamy textures, all while supporting cruelty-free beauty."
+  - text: "Definitely! We understand the importance of ethical beauty, which is why we carry an assortment of lipsticks that are vegan and cruelty-free. Enjoy guilt-free glam with our selection of compassionate cosmetics."
+  - text: "Absolutely! Our store offers a range of natural shampoos that are sulfate-free, ensuring a gentle yet effective cleansing experience. Treat your hair to the goodness of nature without harsh chemicals."
+  - text: "Yes, indeed! We understand the desire for natural hair care products, which is why we stock a variety of sulfate-free shampoos. Experience the power of natural ingredients for healthy, beautiful hair."
+  - text: "Certainly! Our selection of natural shampoos is free from sulfates, providing a gentle cleansing solution for your hair. Discover the benefits of sulfate-free formulas for hair that looks and feels its best."
+  - text: "We prioritize the safety and comfort of our customers, so our products undergo rigorous testing to ensure they are suitable for sensitive skin. Rest assured, you can use our products with confidence."
+  - text: "Our commitment to skincare extends to those with sensitive skin. We carefully formulate our products to minimize irritants and maximize effectiveness. You can trust that our products are gentle on sensitive skin."
+  - text: "We understand the importance of avoiding irritants for sensitive skin types. That's why we provide detailed ingredient information for all our products, allowing you to make informed choices about what's best for your skin."
+
+  utter_ask_product_authenticity:
+  - text: "Concerned about product authenticity? Let me assist you."
+  - text: "Ensuring the authenticity of our products is our top priority. Rest assured, we source directly from trusted manufacturers to guarantee genuine products every time you shop with us."
+  - text: "We understand the importance of authenticity. That's why we implement strict quality control measures and partner with reputable suppliers to deliver only genuine products to our customers."
+  - text: "You can shop with confidence knowing that our products are 100% authentic. We take counterfeit concerns seriously and work diligently to maintain the integrity of our inventory."
+  - text: "Our authorized retailers are strategically located across various regions to provide convenient access to our products. Visit our website to find a retailer near you and experience our products firsthand."
+  - text: "We have a network of authorized retailers that adhere to our quality standards and customer service values. Find your nearest authorized retailer and shop with confidence."
+  - text: "You can trust our authorized retailers to deliver the same level of excellence and authenticity that you expect from our brand. Discover our products at a retailer near you."
+  - text: "Verifying the batch code is easy! Simply enter the batch code on our website, and you'll receive instant confirmation of the product's authenticity and production details."
+  - text: "We provide a simple and secure method for checking batch codes. Visit our website or contact our customer support team with the batch code, and we'll verify it for you."
+  - text: "You can verify the batch code directly on our website or by reaching out to our customer service team. We're here to ensure transparency and peace of mind for our customers."
+
+  utter_ask_product_comparison:
+  - text: "Interested in comparing products? I can help with that."
+  - text: "Our facial cleanser offers a unique blend of ingredients tailored to address specific skin concerns, providing a refreshing and nourishing experience unlike any other. However, results may vary depending on individual skin types and preferences."
+  - text: "While both facial cleansers aim to cleanse and rejuvenate the skin, ours boasts a gentle yet effective formula enriched with natural extracts, promising a radiant complexion with continued use."
+  - text: "Our facial cleanser stands out for its ability to deeply cleanse pores while maintaining the skin's natural moisture balance. Experience a refreshing cleanse that leaves your skin feeling revitalized and renewed."
+  - text: "We appreciate your loyalty as a customer. While we strive to offer competitive prices, we encourage you to reach out to our customer service team with the details of the product you found. We'll do our best to match or beat the price for you."
+  - text: "Thank you for bringing this to our attention. We value your satisfaction and are committed to providing the best value for our customers. Please provide us with the necessary information, and we'll gladly review the price match request."
+  - text: "We understand the importance of offering competitive prices. Rest assured, we continuously monitor the market to ensure our prices remain competitive. Please share the details of the product, and we'll assess the price match opportunity for you."
+  - text: "Electric toothbrush brands vary in features, performance, and price. While some offer advanced cleaning modes and sleek designs, others prioritize affordability and simplicity. Consider your preferences and oral health needs when choosing the right electric toothbrush for you."
+  - text: "Each electric toothbrush brand has its strengths and weaknesses. Some excel in plaque removal and gum care, while others prioritize battery life and convenience. Explore the diverse range of options available to find the perfect match for your oral hygiene routine."
+  - text: "When comparing electric toothbrush brands, consider factors such as brush head compatibility, battery longevity, and additional features like pressure sensors and timers. Choose a brand that aligns with your dental health goals and lifestyle preferences."
+
+  utter_ask_shipping_and_packaging:
+  - text: "Need information about shipping or packaging options?"
+  - text: "Our standard shipping typically delivers within 3-5 business days, depending on your location and shipping method chosen at checkout. For more precise delivery estimates, please refer to the shipping information provided during checkout."
+  - text: "We understand the anticipation of receiving your order. Our shipping team works diligently to ensure orders are processed promptly and delivered within the estimated time frame. You can track your order using the tracking number provided in your confirmation email."
+  - text: "The delivery time for your order may vary depending on factors such as shipping method, destination, and any unforeseen circumstances. Rest assured, we strive to deliver your order as quickly and efficiently as possible."
+  - text: "Yes, we proudly offer international shipping to select countries worldwide. Shipping rates and delivery times may vary depending on your location. Please proceed to checkout to view available shipping options for your destination."
+  - text: "We're thrilled to offer international shipping to bring our products to customers around the globe. Explore our diverse range of products and enjoy the convenience of having your order delivered to your doorstep, no matter where you are."
+  - text: "Global customers are welcome! We offer international shipping to various destinations, allowing you to enjoy our products from anywhere in the world. Simply select your country during checkout to see the available shipping options."
+  - text: "At [Company Name], we are committed to sustainability. We offer eco-friendly packaging options, including recycled materials and biodegradable packaging, to minimize our environmental footprint. Choose eco-friendly packaging at checkout to support our planet."
+  - text: "We prioritize environmental responsibility and offer eco-friendly packaging solutions for conscious consumers. Opt for our eco-packaging option during checkout to receive your order in packaging that is both eco-conscious and protective."
+  - text: "Reduce, reuse, recycle! Our eco-friendly packaging options are designed with sustainability in mind. Make a positive impact on the environment by selecting our eco-packaging option at checkout and join us in our mission to promote a greener future."
+
+  utter_ask_usage_instructions:
+  - text: "Would you like instructions on how to use a particular product?"
+  - text: "For optimal results, start by shampooing your hair and towel-drying it lightly. Then, apply a generous amount of the hair mask, focusing on the mid-lengths to ends. Leave it on for 10-15 minutes before rinsing thoroughly with lukewarm water. Use weekly for silky-smooth hair!"
+  - text: "Begin with clean, damp hair. Gently massage the hair mask into your hair, focusing on areas that need extra hydration or repair. Leave it on for at least 5 minutes, or longer for deeper conditioning. Rinse thoroughly with cool water to seal the cuticles and lock in moisture."
+  - text: "After shampooing, distribute the hair mask evenly through damp hair, ensuring thorough coverage. Use a wide-tooth comb to detangle and evenly distribute the product. Leave it on for 5-10 minutes, then rinse thoroughly. Style as usual for soft, nourished locks."
+  - text: "If your curling iron isn't heating up, first ensure that it's plugged in properly and the power switch is turned on. Check if there's any visible damage to the cord or plug. If everything seems fine, try plugging it into a different outlet or using a different power source. If the issue persists, it may indicate a malfunction, and we recommend contacting our customer support for assistance."
+  - text: "If your curling iron fails to heat up, double-check that it's securely plugged in and the power switch is on. Inspect the cord for any signs of damage or wear. If it still won't heat, try resetting the appliance by unplugging it for a few minutes before plugging it back in. If the problem persists, it may require professional repair or replacement."
+  - text: "If your curling iron is not heating up, first verify that it's properly connected to a power source and that the power switch is turned on. If it still doesn't heat up, try using a different outlet or power adapter. If the issue persists, it may indicate a malfunction, and we recommend contacting our customer support team for further assistance."
+  - text: "Prior to using this product, perform a patch test on a small area of skin to check for any adverse reactions or allergies. Avoid contact with eyes and mucous membranes. If irritation occurs, discontinue use immediately and consult a healthcare professional. Keep out of reach of children."
+  - text: "To ensure safe usage, always read and follow the instructions provided with the product. Avoid contact with eyes, and in case of contact, rinse thoroughly with water. Do not apply to broken or irritated skin. If any adverse reaction occurs, discontinue use and consult a physician."
+  - text: "Before using this product, carefully read the instructions and warnings on the packaging. Conduct a patch test on a small area of skin to check for sensitivity or allergic reactions. Avoid prolonged exposure to heat or direct sunlight after application. Discontinue use if irritation occurs and seek medical advice."
+
+  utter_warranty_and_customer_support_response:
+  - text: "Here is the information about warranty and customer support."
+  - text: "Our return policy allows for a hassle-free experience. If you're not completely satisfied with your purchase, you can return it within 30 days for a full refund or exchange. Simply contact our customer support team to initiate the return process, and we'll guide you through the necessary steps."
+  - text: "Rest assured, we stand behind the quality of our products. If you're dissatisfied with your purchase for any reason, you can return it within 14 days for a refund or exchange. Just make sure the item is in its original condition with all packaging intact. For more details, refer to our returns policy on our website."
+  - text: "Your satisfaction is our priority. If you're not 100% satisfied with your purchase, you can return it within 45 days for a refund or exchange. Contact our dedicated customer support team, and they'll assist you with the return process. Please note that certain exclusions may apply."
+  - text: "Our product comes with a standard one-year warranty from the date of purchase. This warranty covers manufacturing defects and malfunctions under normal use conditions. If you encounter any issues within this period, simply reach out to our customer support team, and we'll provide assistance accordingly."
+  - text: "Rest easy knowing that your purchase is protected by a two-year warranty. This warranty ensures that your product is free from defects in materials and workmanship. Should you experience any problems during this period, contact our customer service team, and we'll be happy to help."
+  - text: "We offer a comprehensive three-year warranty on this product, demonstrating our commitment to quality and customer satisfaction. This warranty covers defects in materials and workmanship, providing you with peace of mind. If you have any questions or concerns, our customer support team is here to assist you."
+  - text: "Getting in touch with our customer support team is quick and easy. You can reach us via email at support@example.com, by phone at 1-800-123-4567, or through our live chat feature on our website. Our knowledgeable representatives are available 24/7 to assist you with any inquiries or issues you may have."
+  - text: "For prompt assistance, our customer support team is available via phone during business hours at 1-800-555-1234. Alternatively, you can send us an email at support@example.com, and one of our representatives will get back to you within 24 hours. We're here to ensure your shopping experience is smooth and enjoyable."
+  - text: "Need help or have questions? Our customer support team is here for you. You can contact us via phone at 1-888-123-4567 or email us at help@example.com. We strive to respond to all inquiries promptly and provide you with the assistance you need. Don't hesitate to reach out to us; we're here to help!"
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

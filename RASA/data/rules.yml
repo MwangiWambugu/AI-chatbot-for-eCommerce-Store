@@ -1,0 +1,68 @@
+version: "3.1"
+
+rules:
+
+- rule: Say goodbye anytime the user says goodbye
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+
+- rule: Say 'I am a bot' anytime the user challenges
+  steps:
+  - intent: bot_challenge
+  - action: utter_iamabot
+
+- rule: Respond to questions about personal care products 
+  steps:
+  - intent: personal_care  
+  - action: utter_ask_personal_care
+
+- rule: Respond to inquiries about accessories and attachments
+  steps: 
+  - intent: accessories_and_attachments
+  - action: utter_ask_accessories_and_attachments
+
+- rule: Address questions about electronic products
+  steps:
+  - intent: electronics
+  - action: utter_ask_electronics
+
+- rule: Respond to requests regarding fragrances
+  steps:
+  - intent: fragrances
+  - action: utter_ask_fragrances
+
+- rule: Answer health and safety concerns
+  steps:
+  - intent: health_and_safety
+  - action: utter_ask_health_and_safety
+
+- rule: Respond to ingredient specific questions
+  steps:
+  - intent: ingredient_specific_questions
+  - action: utter_ask_ingredient_specific_questions
+
+- rule: Address concerns about product authenticity
+  steps:
+  - intent: product_authenticity
+  - action: utter_ask_product_authenticity
+
+- rule: Help compare products
+  steps:  
+  - intent: product_comparison
+  - action: utter_ask_product_comparison
+
+- rule: Provide shipping and packaging information
+  steps:
+  - intent: shipping_and_packaging
+  - action: utter_ask_shipping_and_packaging
+
+- rule: Give usage instructions
+  steps:
+  - intent: usage_instructions
+  - action: utter_ask_usage_instructions
+
+- rule: Respond regarding warranty and customer support
+  steps:
+  - intent: warranty_and_customer_support
+  - action: utter_warranty_and_customer_support_response

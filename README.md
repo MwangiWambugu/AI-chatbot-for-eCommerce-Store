@@ -79,10 +79,21 @@ Lemmatize words in a list of filtered words, and then prints a sample of the lem
 
 
 ## 4. Modelling
-#### Multinomial Naive Bayes Model
+#### Pretrained model
+Pretrained models can be fine-tuned or adapted to specific tasks with smaller datasets. This process, known as transfer learning, involves taking a pretrained model and adjusting its parameters to perform a new task. Transfer learning allows developers to achieve good performance on their tasks with less labeled data. In our case we used one from hugging face.https://huggingface.co/
 
+#### Rasa model
+Rasa model is a crucial component of conversational AI applications, enabling developers to create intelligent, context-aware chatbots and virtual assistants that deliver engaging and personalized user experiences.
 
-## 5. Conclusion
+## 5. Deployment
+##### Rasa model deployment
+![image](https://github.com/MwangiWambugu/AI-chatbot-for-eCommerce-Store/blob/main/images/rasabotchat.png)
+
+##### Pretrained model deployment
+![image](https://github.com/MwangiWambugu/AI-chatbot-for-eCommerce-Store/blob/main/images/Pretrained_model_demo.png)
+
+## 6. Conclusion
+Overall, a pretrained model and the Rasa framework has enabled us to build a sophisticated conversational AI application that delivers personalized, context-aware user experiences. This approach not only reduced development time and resource requirements but also provided a solid foundation for future enhancements and iterations of the project.
 
 ## Contributors:
 |Name     |  GitHub   |
