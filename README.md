@@ -90,8 +90,7 @@ Rasa model is a crucial component of conversational AI applications, enabling de
 ![image](https://github.com/MwangiWambugu/AI-chatbot-for-eCommerce-Store/blob/main/images/rasabotchat.png)
 
 ##### Pretrained model deployment
-![image]()
-
+![image](https://github.com/MwangiWambugu/AI-chatbot-for-eCommerce-Store/blob/main/images/Pretrained_model_demo.png)
 
 ## 6. Conclusion
 Overall, a pretrained model and the Rasa framework has enabled us to build a sophisticated conversational AI application that delivers personalized, context-aware user experiences. This approach not only reduced development time and resource requirements but also provided a solid foundation for future enhancements and iterations of the project.
