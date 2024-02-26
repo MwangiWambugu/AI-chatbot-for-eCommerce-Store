@@ -5,3 +5,5 @@ chatapp.py
 chatbot_model.h5
 classes.pkl
 README.md
+vectorizer.pkl
+words.pkl
